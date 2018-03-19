@@ -46,6 +46,16 @@ td {
 	height: auto;
 	margin-bottom: 10px;
 }
+#tableInscrip {
+	border: none;
+	width: 300px;
+}
+#trInscrip {
+	border: none;
+}
+#tdInscrip {
+	border: none;
+}
 #tdBlankHead {
 	border: none;
 	width: 33%;
