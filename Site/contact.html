@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- contact.html est la page affichant le formulaire de contact vers Lormont Informatique Association -->
+
+<html>
+	<head>
+	<!-- Nom dans l'onglet -->
+		<meta charset="utf-8"/>
+		<script type="text/javascript" src="contact.js"></script>
+		<link href="contact.css" type="text/css" rel="stylesheet"/>
+		<title>Lormont Informatique</title>
+	</head>
+	<style>
+	a:link {
+		color: #444444;
+		background-color: transparent;
+		text-decoration: none;
+	}
+	a:visited {
+		color: #444444;
+		background-color: transparent;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #cf3333;
+		background-color: transparent;
+	}
+	a:active {
+		color: yellow;
+		background-color: transparent;
+		text-decoration: underline;
+	}
+	</style>
+	<body onload="auChargement();">
+	<!-- En-tête avec logo -->
+	<header class="header">
+		<table class="tableHead">
+				<tr>
+					<td id="tdretour">
+						<td class="retouraccueil"><a href="index.html">Retour accueil</a></td>
+						<td class="pageprecedente"><a href="#" onClick="history.back()">Page précédente</a></td>
+						<td id="tdFB"><a href="https://www.facebook.com/Lormontinformatique/"><img id="logoFB" align="center" src="content\uploads\image\logos\FB-fLogo-Blue-broadcast-2.png"/></td>
+					</td>
+					<td id="tdLIAHead"><p><span id="Maj">L</span>ormont <span id="Maj">I</span>nformatique <span id="Maj">A</span>ssociation</p>
+					<p id="Maj">L . I . A .</p></td>
+					<td id="tdLogoHead"><img id="logo" align="center" src="content\uploads\image\logos\SmallLogo2.png"/></td>
+				</tr>
+		</table>
+		<table class="tabledep">
+			<td id="tdblankdep"></td>
+			<td id="tddep">Formulaire <span style="color:#cf3333">de</span> contact</td>
+			<td id="tdblankdep"></td>
+		</table>
+	</header>
+	
+	<!-- Contact -->
+	<main>
+	<div>
+		<form>
+			<fieldset>
+				<legend>
+					Formulaire de contact
+				</legend>
+			<table class="tableContact">
+				<tr>
+					<td id="tdblank"></td>
+					<td id="tdContact">Civilité :</td>
+					<td id="tdblank"></td>
+					<td id="tdContact">
+						<input type=radio name="civilite" value="Madame" checked>Madame
+						<input type=radio name="civilite" value="Monsieur">Monsieur
+					</td>
+				</tr>
+				<tr>
+					<td id="tdblank"></td><td id="tdContact">Nom<span style="color:#cf3333">*</span> :</td>
+					<td id="tdblank"></td>
+					<td id="tdContact">
+						<input size="35" type="text" placeholder="Votre nom" onblur="checkFields(this,0);"/></td>
+				</tr>
+				<tr>
+					<td id="tdblank"></td><td id="tdContact">Prénom<span style="color:#cf3333">*</span> :</td>
+					<td id="tdblank"></td>				
+					<td id="tdContact">
+						<input size="35"type="text" placeholder="Votre prénom" onblur="checkFields(this,1);"/></td>
+				</tr>
+				<tr>
+					<td id="tdblank"></td><td id="tdContact">Email<span style="color:#cf3333">*</span> :</td>
+					<td id="tdblank"></td>
+					<td id="tdContact">
+						<input size="35"type="email" placeholder="Adresse mail" onblur="checkFields(this,2);" required/>
+						
+					</td>
+				</tr>
+				<tr>
+					<td id="tdblank"></td><td id="tdContact">Besoin<span style="color:#cf3333">*</span> :</td><td id="tdblank"></td>
+					<td id="tdContact">
+						<select>
+							<option>Dépannage ou maintenance</option>
+							<option>Cours ou formation</option>
+							<option>Recycler un appareil</option>
+							<option>Faire un don</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td id="tdblank"></td><td id="tdContact" style="vertical-align:top">Message :</td>
+					<td id="tdblank"></td>
+					<td id="tdContact"><textarea rows="10" cols="36" placeholder="Veuillez préciser votre demande ici..." onblur="checkFields(this,3);"></textarea></td>
+				</tr>
+				<tr>
+					<td id="tdblank"></td>
+					<td id="tdContact">Confirmer et</td>
+					<td id="tdContact"></td>
+					<td id="tdContact">
+						<input type="submit" value="Envoyer" id="envoyer"/> ou 
+						<input type="reset" onSubmit="alert('Tout sera effacé !');">
+					</td>
+				</tr>
+				
+			</table>
+			</fieldset>
+		</form>
+	</div>
+	</main>
+	
+	<!-- Bas-de-page -->
+		<footer>
+			<table class="tableFoot">
+				<td class="tdFooter" id="tdFooter1">© Site créé par Nicolas Hérole</td>
+				<td class="tdFooter" id="tdFooter2">
+				<a href="https://www.facebook.com/Lormontinformatique/"><img id="FBfooter" src="content\uploads\image\logos\FB-FindUsonFacebook-online-512_fr_FR.png"/></a>
+				</td>
+				<td class="tdFooter" id="tdFooter2">
+					<p><strong>Pour nous contacter :</strong></p>
+					<p>Tel : 06.38.86.15.56</p>
+					<p>Mail : contact@lormont-informatique.fr</p>
+					<p><a href="contact.html">Formulaire de contact (cliquez !)</a></p>
+				</td>
+			</table>
+		</footer>
+	</body>
+<html/>
