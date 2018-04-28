@@ -19,6 +19,9 @@ SET time_zone = "+00:00";
 --
 -- Base de données :  `ateliernfa021`
 --
+CREATE DATABASE `ateliernfa021` default character set utf8;
+
+use `ateliernfa021`;
 
 -- --------------------------------------------------------
 
@@ -30,9 +33,7 @@ CREATE TABLE `utilisateur` (
   `ID` int(11) NOT NULL,
   `nom` varchar(25) NOT NULL,
   `prenom` varchar(25) NOT NULL,
-  `specialite` varchar(25) NOT NULL,
-  `mail` varchar(25) NOT NULL,
-  `daten` date NOT NULL,
+  `email` varchar(25) NOT NULL,
   `passworda` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -40,8 +41,8 @@ CREATE TABLE `utilisateur` (
 -- Contenu de la table `utilisateur`
 --
 
-INSERT INTO `utilisateur` (`ID`, `nom`, `prenom`, `specialite`, `mail`, `daten`, `passworda`) VALUES
-(1, 'TALEMCI', 'AMINE', 'professeur', 'talemci.amine@gmail.to', '2016-12-02', '1edc5f380d3f13e6bc9e00d85e808196baa8a73c');
+INSERT INTO `utilisateur` (`ID`, `nom`, `prenom`, `email`, `passworda`) VALUES
+(1, 'TALEMCI', 'AMINE', 'amine.talemci@coldmail.co', '1edc5f380d3f13e6bc9e00d85e808196baa8a73c');
 
 --
 -- Index pour les tables exportées
@@ -52,7 +53,7 @@ INSERT INTO `utilisateur` (`ID`, `nom`, `prenom`, `specialite`, `mail`, `daten`,
 --
 ALTER TABLE `utilisateur`
   ADD PRIMARY KEY (`ID`),
-  ADD UNIQUE KEY `mail` (`mail`);
+  ADD UNIQUE KEY `email` (`email`);
 
 --
 -- AUTO_INCREMENT pour les tables exportées

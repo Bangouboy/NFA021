@@ -31,19 +31,20 @@ use `ateliernfa021`;
 CREATE TABLE `utilisateur` (
   `ID` int(11) NOT NULL,
   `nom` varchar(25) NOT NULL,
-  `prenom` varchar(25) NOT NULL
+  `prenom` varchar(25) NOT NULL,
+  `pswd`varchar(25) NOT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Contenu de la table `utilisateur`
 --
 
-INSERT INTO `utilisateur` (`ID`, `nom`, `prenom`) VALUES
-(1, 'TALEMCI', 'AMINE'),
-(17, 'DEMAISON', 'Chloe'),
-(20, 'Baizet', 'Mickael'),
-(21, 'Fontaine', 'Arnaud'),
-(22, 'Herole', 'Nico');
+INSERT INTO `utilisateur` (`ID`, `nom`, `prenom`, `pswd`) VALUES
+(1, 'TALEMCI', 'AMINE', '123'),
+(17, 'DEMAISON', 'Chloe', '456'),
+(20, 'Baizet', 'Mickael', '789'),
+(21, 'Fontaine', 'Arnaud', '123'),
+(22, 'Herole', 'Nico', '456');
 
 --
 -- Index pour les tables exportées
