@@ -1,0 +1,6 @@
+# Ignorer tous les fichiers Projet Eclipse suivants :
+*.buildpath
+*.project
+
+# Ignorer le dossier Projet Eclpise suivant :
+/.settings
