@@ -1,71 +1,81 @@
 <!DOCTYPE html>
 <!-- index.html est la page d'accueil du site Lormont Informatique Association -->
 
-<html lang="fr">
+<html>
 	<head>
-	<!-- Nom dans l'onglet et métadonnées -->
+	
+	<!-- Nom dans l'onglet -->
+		
 		<meta charset="utf-8"/>
 		<link href="style.css" type="text/css" rel="stylesheet"/>
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 		<title>Lormont Informatique</title>
 	</head>
 	<style>
 	a:link {
-		color: #444444;
+		color: #4a4a4a;
 		background-color: transparent;
 		text-decoration: none;
 	}
 	a:visited {
-		color: #444444;
+		color: #4a4a4a;
 		background-color: transparent;
 		text-decoration: none;
 	}
 	a:hover {
-		color: #cf3333;
+		color: #c8e622;
 		background-color: transparent;
 	}
 	a:active {
-		color: yellow;
+		color: c8e622;
 		background-color: transparent;
 		text-decoration: underline;
 	}
 	</style>
 	<body>
-	<!-- En-tête avec logo -->
-		<header class="header">
-			<table class="tableHead">
-				<tr>
-					<td id="tdBlankHead"><a href="https://www.facebook.com/Lormontinformatique/"><img id="logoFB" align="center" src="content\uploads\image\logos\FB-fLogo-Blue-broadcast-2.png"/></a></td>
-					<td id="tdLIAHead"><p><span id="Maj">L</span>ormont <span id="Maj">I</span>nformatique <span id="Maj">A</span>ssociation</p>
-					<p id="Maj">L . I . A .</p></td>
-					<td id="tdLogoHead"><img id="logo" align="center" src="content\uploads\image\logos\SmallLogo2.png"/></td>
-				</tr>
-			</table>
-			<table class="tabledep">
-				<td id="tdblankdep"></td>
-				<td id="tddep"><p id="Bienvenue"><span style="color:#cf3333">Bienvenue sur votre page d'accueil !</span></p></td>
-				<td id="tdblankdep"></td>
-			</table>
-		</header>
-
-	<!-- Des prestations de qualité à tarifs avantageux uniquement pour nos adhérents -->
-		<main>
-			<table id="cadre">
-					<td id="cadre2"><a href="adherent.html"><span style="color:#ffffff">Des prestations de qualité à tarifs avantageux uniquement pour nos adhérents</span></a></td>
-			</table>
-		
-	<!-- Activités par domaine primaire -->
-			<div>	
-				<table>
-					<td id="cadre3"><a href="depannage.html"><p>Dépannage</p><p> & </p><p>Maintenance</p></td>
-					<td id="tdblank"></td>
-					<td id="cadre3"><a href="cours.html"><p>Cours</p><p>&</p><p>Formations</p></td>
-					<td id="tdblank"></td>
-					<td id="cadre3"><a href="recyclage.html"><p>Recycler</p><p>mes appareils</p><p>obsolètes</p></td>
-				</table>
-			</div>
-		</main>
 	
+	<!-- En-tête avec logo -->
+	
+	<header class="header">
+		<table class="tableHead">
+				<tr>
+					<td id="tdHead">
+						<img id="logo" src="content\uploads\charte_graphiques\logo\logo_lia.png"/>
+					</td>
+					<td id="tdLIAHead">
+						<p><span id="vert_clair">Lormont </span><span id="bleu">Informatique </span><span id="vert_clair">Association</span></p>
+					</td>
+						<td id="tdHead">
+						<td class="pageprecedente"><a href="#" onClick="history.back()"><span style="color: #f9f9f9">Retour</span></a></td>
+					</td>
+				</tr>
+		</table>
+		<table class="tabledep">
+			<td id="tdblankdep1"></td>
+			<td id="tddep"><p id="Bienvenue">Bienvenue sur votre page d'accueil !</p></td>
+			<td id="tdblankdep2"></td>
+		</table>
+	</header>
+	
+	<!-- Activités par domaine primaire -->
+		<div>	
+			<table id="table2">
+				<td id="cadre3"><a href="depannage.html"><p>Dépannage</p><p> & </p><p>Maintenance</p></td>
+				<td id="tdblank"></td>
+				<td id="cadre3"><a href="cours.html"><p>Cours</p><p> & </p><p>Formations</p></td>
+				<td id="tdblank"></td>
+				<td id="cadre3"><a href="recyclage.html"><p>Recycler</p><p>mes appareils</p><p>obsolètes</p></td>
+			</table>
+		</div>
+		
+	<!-- Des prestations de qualité à tarifs avantageux uniquement pour nos adhérents -->
+		<table id="blank_table">
+			<td id="tdblank"> <img id="logo" src="content\uploads\charte_graphiques\icones\pouce_eclatant.png"/> </td>
+			<td id="tdblank"> <p><a href="adherent.html"><span style="color=#cf3333">Des prestations de qualité à tarifs avantageux uniquement pour nos adhérents</span></a></p> </td>
+			<!--<td id="tdblank"> <img id="logo" src="content\uploads\charte_graphiques\icones\pouce_eclatant.png"/> </td>-->
+		</table>
 	<!-- LIA histoire et principes & Inscription -->
+		
 		<div>
 			<table id="cadrelia1">
 				<td id="cadrelia2"><a href="LIA.html" id="hrefFont"><p>L.I.A est une association loi 1901</p><p>Cela implique quoi ?</p></td>
@@ -75,20 +85,25 @@
 		</div>
 		
 	<!-- Bas-de-page -->
-		<footer>
-			<table class="tableFoot">
-				<td class="tdFooter" id="tdFooter1">© Site créé par Nicolas Hérole</td>
-				<td class="tdFooter" id="tdFooter2">
-				<a href="https://www.facebook.com/Lormontinformatique/"><img id="FBfooter" src="content\uploads\image\logos\FB-FindUsonFacebook-online-512_fr_FR.png"/></a>
-				</td>
-				<td class="tdFooter" id="tdFooter2">
-					<p><strong>Pour nous contacter :</strong></p>
-					<p>Tel : 06.38.86.15.56</p>
-					<p>Mail : contact@lormont-informatique.fr</p>
-					<p>Formulaire de contact (<em>Bientôt disponible !</em>)</a></p>
-					<!--<p><a href="contact.html">Formulaire de contact (cliquez !)</a></p>-->
-				</td>
-			</table>
-		</footer>
+	
+	<footer>
+		<table class="tableFootborder">
+			<tr>
+			</tr>
+		</table>
+		<table class="tableFoot">
+			<td class="tdFooter" id="tdFooter1">© Site créé par Nicolas Hérole</td>
+			<td class="tdFooter" id="tdFooter2">
+			<a href="https://www.facebook.com/Lormontinformatique/"><img id="FBfooter" src="content\uploads\image\logos\FB-FindUsonFacebook-online-512_fr_FR.png"/></a>
+			</td>
+			<td class="tdFooter" id="tdFooter2">
+				<p><strong>Pour nous contacter :</strong></p>
+				<p>Tel : 06.38.86.15.56</p>
+				<p>Mail : contact@lormont-informatique.fr</p>
+				<p>Formulaire de contact (<em>Bientôt disponible !</em>)</a></p>
+				<!--<p><a href="contact.html">Formulaire de contact (cliquez !)</a></p>-->
+			</td>
+		</table>
+	</footer>		
 	</body>
-</html>
+<html/>

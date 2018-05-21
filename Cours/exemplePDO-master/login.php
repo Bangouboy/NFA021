@@ -3,6 +3,7 @@
 ?>
 
 <html>
+
 <head>
 <title>Formulaire de connexion</title>
 <link href="style.css" rel="stylesheet" type="text/css"></link>

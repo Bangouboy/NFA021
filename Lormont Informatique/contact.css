@@ -1,12 +1,12 @@
 /*==================COMMUN AUX PAGES==================*/
 
 html {
-	background-color: #fafaff;
+	background-color: #f9f9f9;
 	min-width: 100px;
 	max-width: 2440px;
 	font-size: 32px;
-	font-family: Arial;
-	color: #444444;
+	font-family: Hind Vadodara;
+	color: #4a4a4a;
 	text-align: center;
 }
 body {
@@ -20,20 +20,20 @@ p {
 	margin: auto;
 }
 table {
-	border: 50px solid #fafaff;
+	border: 50px solid #f9f9f9;
 	width: 100%;
 	height: 200px;
 	text-align: center;
 }
 td {
-	border: 5px solid #999999;
+	border: 5px solid #4a4a4a;
 	height: 100%;
 	width: 30%;
-	background-color: #ecf6f2;
+	background-color: #bebebe;
 }
 .header {
 	text-align: center;
-	background-color: #dbe5f1;
+	background-color: #f9f9f9;
 	font-family: Arial;
 	color: #444444;
 	margin: 0;
@@ -44,58 +44,44 @@ td {
 .tableHead {
 	border: none;
 	height: auto;
-	margin-bottom: 10px;
 }
 #tdBlankHead {
 	border: none;
 	width: 33%;
-	background-color: #dbe5f1;
+	background-color: #3b5998;
 }
 #logo {
-	height: 100px;
+	height: 50%;
+	max-height: 116px;
 }
-#logoFB {
-	height: 50px;
-}
-#tdretour {
+#tdHead {
 	border: none;
-	height: 100%;
-	width: 20%;
-	background-color: #dbe5f1;
-}
-#tdFB {
-	border: none;
-	height: 100%;
-	width: 10%;
-	background-color: #dbe5f1;
-	text-align: left;
-}
-#tdLogoHead {
-	border: none;
-	background-color: #dbe5f1;
-	width: 33%;
-	margin: auto;
+	background-color: #f9f9f9;
+	width: 30%;
 }
 #tdLIAHead {
 	border: none;
-	background-color: #dbe5f1;
-	width: 34.5%;
+	background-color: #f9f9f9;
+	width: 40%;
 }
-#Maj {
+#bleu {
 	font-weight: bold;
-	color: #333333;
+	color: #76d2f6;
+}
+#vert {
+	font-weight: bold;
+	color: #c8e622;
 }
 .retouraccueil {
 	border: none;
 	position: absolute;
 	line-height: 1.9;
 	top: 10px;
-	left: 20px;
-	color: white;
+	right: 60px;
 	font-size: 65%;
 	height: 40px;
-	width: 200px;
-	background-color: #8f88cc;
+	width: 100px;
+	background-color: #bebebe;
 	border-radius: 0 50px 50px 0;
 }
 .pageprecedente {
@@ -103,59 +89,84 @@ td {
 	position: absolute;
 	line-height: 1.9;
 	top: 65px;
-	left: 20px;
-	color: white;
+	right: 60px;
 	font-size: 65%;
 	height: 40px;
-	width: 200px;
-	background-color: #afaaff;
+	width: 100px;
+	background-color: #969696;
 	border-radius: 50px 0 0 50px;
 }
 .tabledep {
 	border: none;
 	border-spacing: 0px;
 	text-align: center;
-	background-color: #fafaff;
+	font-size: 80%;
+	background-color: #f9f9f9;
 	height: 80px;
 }
 #tddep {
 	border: none;
-	border-top: 1px solid #fafaff;	
+	border-top: 1px solid #4a4a4a;
 	border-radius: 0 0 50px 50px ;
-	background-color: #dbe5f1;
-	height: 80px;
-	width: 30%;
+	background-color: #c8e622;
+	
 }
 #tdblankdep {
 	border: none;
+	border-top: 1px solid #4a4a4a;
+	border-radius:  0 0 50px 50px ;
 	width: 25%;
 	height: 100%;
-	background-color: #fafaff;
+	background-color: #f9f9f9;
+}
+#tdblankdep1 {
+	border: none;
+	border-top: 1px solid #4a4a4a;
+	border-radius: 50px 0 0 0 ;
+	width: 25%;
+	height: 100%;
+	background-color: #f9f9f9;
+}
+#tdblankdep2 {
+	border: none;
+	border-top: 1px solid #4a4a4a;
+	border-radius: 0 50px 0 0 ;
+	width: 25%;
+	height: 100%;
+	background-color: #f9f9f9;
 }
 footer {
 	text-align: left;
 	margin-top: 50px;
-	background-color: #dbe5f1;
+	background-color: #76d2f6;
 	height: 200px;	
 }
 .tableFoot {
 	border: none;
 	height: auto;
 	margin-top: 10px;
-	padding-top: 30px;
-	background-color: #dbe5f1;
+	
+	background-color: #76d2f6;
 	font-size: 70%;
-	text-align: left;
+}
+.tableFootborder {
+	border: none;
+	border-bottom: 1px solid #4a4a4a;
+	border-radius: 0 0 50px 50px ;
+	height: 40px;
+	margin-top: 10px;
+	background-color: #f9f9f9;
 }
 .tdFooter {
 	border: none;
 	height: auto;
 	width: 30%;
-	background-color: #dbe5f1;
+	background-color: #76d2f6;
 }
 #tdFooter1 {
 	font-size: 45%;
 	vertical-align: top;
+	text-align: left;
 }
 #tdFooter2 {
 	font-size: 70%;
@@ -174,11 +185,11 @@ fieldset {
 	margin: auto;
 	margin-top: 50px;
 	border-radius: 50px;
-	background-color: #dbe5f1;
+	background-color: #8d7a56;
 	font-size: 80%;
 }
 .tableContact {
-	border: 30px solid #dbe5f1;
+	border: 30px solid #8d7a56;
 	witdh: 50%;
 	height: auto;
 	font-size: 65%;
@@ -195,11 +206,11 @@ legend {
 	border: none;
 	height: 100%;
 	width: 30%;
-	background-color: #dbe5f1;
+	background-color: #8d7a56;
 }
 #tdblank {
 	border: none;
 	width: 5%;
 	height: 100%;
-	background-color: #dbe5f1;
+	background-color: #8d7a56;
 }
