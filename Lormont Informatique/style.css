@@ -1,16 +1,19 @@
+@charset "utf-8";
+
 /*==================COMMUN AUX PAGES==================*/
 
 html {
-	background-color: #ffffff;
+	background-color: #f0f9f4;
 	min-width: 100px;
 	max-width: 2440px;
-	font-size: 32px;
-	font-family: Courier New;
+	font-size: 2.1vw;
+	font-family: Courier New, serif;
 	color: #4a4a4a;
 	text-align: center;
 }
-h1, h2, h3, h4 {
-	font-family: Verdana;
+h1, h2, h3, h4, h5 {
+	font-family: Verdana, sans serif;
+	font-weight: bold;
 }
 body {
 	width: 100%;
@@ -23,9 +26,9 @@ p {
 	margin: auto;
 }
 table {
-	border: 50px solid #ffffff;
+	border: 2vw solid #f0f9f4;
 	width: 100%;
-	max-height: 200px;
+	max-height: 30vw;
 	text-align: center;
 }
 td {
@@ -34,10 +37,17 @@ td {
 	width: 30%;
 	background-color: #bebebe;
 }
+ul {
+	margin: none;
+	padding: none;
+}
+li {
+	display: inline;
+	list-style: none;
+}
 .header {
 	text-align: center;
 	background-color: #ffffff;
-	color: #444444;
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -52,20 +62,22 @@ td {
 	width: 33%;
 	background-color: #3b5998;
 }
-#logo {
-	height: 50%;
-	max-height: 116px;
-}
-#tdHead {
+#tdLogo {
 	border: none;
 	background-color: #ffffff;
 	width: 25%;
+	padding-left: 7%;
 }
 #tdLIAHead {
 	border: none;
 	background-color: #ffffff;
 	width: 50%;
-	font-family: verdana;
+	font-family: Verdana, sans serif;
+}
+#tdBack {
+	border: none;
+	background-color: #ffffff;
+	width: 30%;
 }
 #bleu {
 	font-weight: bold;
@@ -83,70 +95,72 @@ td {
 	border: none;
 	position: absolute;
 	line-height: 1.9;
-	top: 10px;
-	right: 60px;
-	font-size: 65%;
-	height: 40px;
-	width: 100px;
+	top: 2vw;
+	right: 5vw;
+	font-size: 70%;
+	height: 3vw;
+	width: 7vw;
 	background-color: #bebebe;
-	border-radius: 0 50px 50px 0;
+	border-radius: 0 50vw 50vw 0;
 }
 .pageprecedente {
 	border: none;
 	position: absolute;
 	line-height: 1.9;
-	top: 65px;
-	right: 60px;
-	font-size: 65%;
-	height: 40px;
-	width: 100px;
-	background-color: #969696;
-	border-radius: 50px 0 0 50px;
+	top: 5vw;
+	right: 5vw;
+	font-size: 70%;
+	height: 3vw;
+	width: 7vw;
+	background-color: #4a4a4a;
+	border-radius: 50vw 0 0 40vw;
+}
+.connexion {
+	position: relative;
+	top: 3.5vw;
+	right: 7vw;
 }
 .tabledep {
 	border: none;
 	border-spacing: 0px;
 	text-align: center;
-	font-size: 80%;
-	background-color: #ffffff;
-	height: 60px;
+	background-image: linear-gradient(#ffffff, #f0f9f4);
+	height: 5vw;
 }
 #tddep {
 	border: none;
-	border-top: 2px solid #0496d1;
-	border-radius: 0 0 20px 20px ;
-	background-color: #88b87e;
-	
+	border-top: 2px solid #cf3333;
+	border-radius: 0 0 3vw 3vw;
+	background-color: #0496d1;	
 }
 #tdblankdep {
 	border: none;
-	border-top: 2px solid #0496d1;
+	border-top: 2px solid #cf3333;
 	border-radius:  0 0 50px 50px ;
 	width: 25%;
 	height: 100%;
-	background-color: #ffffff;
+	background-color: #f0f9f4;
 }
 #tdblankdep1 {
 	border: none;
-	border-top: 2px solid #0496d1;
-	border-radius: 50px 0 0 0 ;
+	border-top: 2px solid #cf3333;
+	border-radius: 40vw 0 0 0 ;
 	width: 25%;
 	height: 100%;
-	background-color: #ffffff;
+	background-color: #f0f9f4;
 }
 #tdblankdep2 {
 	border: none;
-	border-top: 2px solid #0496d1;
+	border-top: 2px solid #cf3333;
 	border-radius: 0 50px 0 0 ;
 	width: 25%;
 	height: 100%;
-	background-color: #ffffff;
+	background-color: #f0f9f4;
 }
 footer {
 	text-align: left;
-	margin-top: 50px;
 	background-color: #88b87e;
-	height: 200px;
+	height: 20vw;
 	color: black;
 }
 .tableFoot {
@@ -154,15 +168,15 @@ footer {
 	height: auto;
 	margin-top: 10px;
 	background-color: #88b87e;
-	font-size: 70%;
+	font-size: 90%;
 }
 .tableFootborder {
 	border: none;
-	border-bottom: 2px solid #0496d1;
+	border-bottom: 2px solid #cf3333;
 	border-radius: 0 0 50px 50px ;
 	height: 40px;
 	margin-top: 10px;
-	background-color: #ffffff;
+	background-color: #f0f9f4;
 }
 .tdFooter {
 	border: none;
@@ -171,18 +185,18 @@ footer {
 	background-color: #88b87e;
 }
 #tdFooter1 {
-	font-size: 50%;
+	font-size: 60%;
 	vertical-align: top;
 	text-align: left;
 }
 #tdFooter2 {
-	font-size: 70%;
+	font-size: 65%;
 	text-align: center;
 	line-height: 2em;
 }
-#FBfooter {
+/*#FBfooter {
 	height: 50px;
-}
+}*/
 
 /*==================PAGE D'ACCUEIL==================*/
 
@@ -196,47 +210,53 @@ footer {
 	border: none;
 	width: 5%;
 	height: 100%;
-	background-color: #ffffff;
+	background-color: #f0f9f4;
 }
 #table2 {
 	margin: 40px 0 0 0;
-	font-family: Verdana;
-	font-size: 80%;
+	font-family: Verdana, sans serif;
 }
-#cadre3 {
-	border: 15px solid #bebebe;
-	border-radius: 30px;
+#cadreDep {
+	border: 15px solid #305b3d;
+	border-radius: 30px 10px 10px 70px;
+	background-color: #305b3d;
+	color: #f0f9f4;
+}
+#cadreFor {
+	border: 15px solid #4a4a4a;
+	border-radius: 10px 10px 10px 10px;
+	background-color: #4a4a4a;
+}
+#cadreRec {
+	border: 15px solid #88b87e;
+	border-radius: 10px 30px 70px 10px;
+	background-color: #88b87e;
 }
 #cadre {
 	border: none;
-	background-color: #ffffff;
+	background-color: #f0f9f4;
 	height: 70px;
 	text-align: center;
 }
 #blank_table{
 	border: none;
-	background-color: #ffffff;
+	background-color: #f0f9f4;
 	text-align: center;
-	font-family: Indie Flower, cursive;
 }
 #Trfspe {
 	text-align: center;
 	font-family: Indie Flower;
 }
 #cadrelia1 {
-	border: 50px solid #ffffff;
-	background-color: #ffffff;
+	border: 50px solid #f0f9f4;
+	background-color: #f0f9f4;
 	height: 80px;
+	font-family: Verdana, sans serif;
 }
 #cadrelia2 {
-	color: #ffffff;
-	border: 0px solid #ffffff;
+	border: 0px solid #f0f9f4;
 	border-radius: 50px;
-	background-color: #4a4a4a;
+	background-color: #0496d1;
 	height: 80px;
-	font-family: Verdana;
-}
-#hrefFont {
-	color: white;
-	font-size: 80%;
+	font-size: auto;
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- index.html est la page d'accueil du site Lormont Informatique Association -->
 
-<html>
+<html lang="fr">
 	<head>
 	
 	<!-- Nom dans l'onglet -->
@@ -13,69 +13,68 @@
 	</head>
 	<style>
 	a:link {
-		color: #4a4a4a;
-		background-color: transparent;
+		color: #f0f9f4;
 		text-decoration: none;
 	}
 	a:visited {
-		color: #4a4a4a;
-		background-color: transparent;
-		text-decoration: none;
+		color: #f0f9f4;
+		font-style: italic;
 	}
 	a:hover {
-		color: #c8e622;
-		background-color: transparent;
+		color: #cf3333;
+		text-decoration: none;
 	}
 	a:active {
-		color: c8e622;
 		background-color: transparent;
 		text-decoration: underline;
 	}
 	</style>
 	<body>
-	
 	<!-- En-tête avec logo -->
 	
 	<header class="header">
 		<table class="tableHead">
 				<tr>
-					<td id="tdHead">
-						<img id="logo" src="content\uploads\charte_graphiques\logo\logo_lia.png"/>
+					<td id="tdLogo">
+						<a href="index.html"><img id="logo" src="content\uploads\charte_graphique\logo\logo_lia.png" width=50%></a>
 					</td>
 					<td id="tdLIAHead">
-						<p><span id="vert_clair">Lormont </span><span id="bleu">Informatique </span><span id="vert_clair">Association</span></p>
+						<a href="index.html"><p><span id="vert_clair">Lormont </span><span id="bleu">Informatique </span><span id="vert_clair">Association</span></p></a>
 					</td>
-						<td id="tdHead">
-						<td class="pageprecedente"><a href="#" onClick="history.back()"><span style="color: #f9f9f9">Retour</span></a></td>
+					<td id="tdBack">
+						<a href="connexion.php"><img class="connexion" src="content\uploads\charte_graphique\icones\connexion.png" width=40%></a>
+						<td class="pageprecedente"><a href="#" onClick="history.back()">Retour</a></td>
 					</td>
 				</tr>
 		</table>
 		<table class="tabledep">
-			<td id="tdblankdep1"></td>
-			<td id="tddep"><p id="Bienvenue">Bienvenue sur votre page d'accueil !</p></td>
-			<td id="tdblankdep2"></td>
+				<td id="tdblankdep1"></td>
+				<td id="tddep"><p id="Bienvenue">< Bienvenue sur votre page d'accueil ! ></p></td>
+				<td id="tdblankdep2"></td>
 		</table>
+
 	</header>
 	
 	<!-- Activités par domaine primaire -->
+	<nav>
 		<div>	
 			<table id="table2">
-				<td id="cadre3"><a href="depannage.html"><p>Dépannage</p><p> & </p><p>Maintenance</p></td>
+				<td id="cadreDep"><a href="depannage.html"><p>Dépannage</p><p> & </p><p>Maintenance</p></td>
 				<td id="tdblank"></td>
-				<td id="cadre3"><a href="cours.html"><p>Cours</p><p> & </p><p>Formations</p></td>
+				<td id="cadreFor"><a href="cours.html"><p>Cours</p><p> & </p><p>Formations</p></td>
 				<td id="tdblank"></td>
-				<td id="cadre3"><a href="recyclage.html"><p>Recycler</p><p>mes appareils</p><p>obsolètes</p></td>
+				<td id="cadreRec"><a href="recyclage.html"><p>Recycler</p><p>mes appareils</p><p>obsolètes</p></td>
 			</table>
 		</div>
 		
 	<!-- Des prestations de qualité à tarifs avantageux uniquement pour nos adhérents -->
-		<table id="blank_table">
-			<td id="tdblank"> <img id="logo" src="content\uploads\charte_graphiques\icones\pouce_eclatant.png"/> </td>
-			<td id="tdblank"> <p><a href="adherent.html"><span style="color=#cf3333">Des prestations de qualité à tarifs avantageux uniquement pour nos adhérents</span></a></p> </td>
-			<!--<td id="tdblank"> <img id="logo" src="content\uploads\charte_graphiques\icones\pouce_eclatant.png"/> </td>-->
-		</table>
-	<!-- LIA histoire et principes & Inscription -->
 		
+		<div>
+			<img src="content\uploads\charte_graphique\prix_adherents.png" width=100%>
+		</div>
+		
+	<!-- LIA histoire et principes & Inscription -->
+
 		<div>
 			<table id="cadrelia1">
 				<td id="cadrelia2"><a href="LIA.html" id="hrefFont"><p>L.I.A est une association loi 1901</p><p>Cela implique quoi ?</p></td>
@@ -83,7 +82,7 @@
 				<td id="cadrelia2"><a href="adherent.html" id="hrefFont"><p>Comment devenir</p><p>adhérent ?</p></td>
 			</table>
 		</div>
-		
+	</nav>
 	<!-- Bas-de-page -->
 	
 	<footer>
@@ -92,9 +91,9 @@
 			</tr>
 		</table>
 		<table class="tableFoot">
-			<td class="tdFooter" id="tdFooter1">© Site créé par Nicolas Hérole</td>
+			<td class="tdFooter" id="tdFooter1">©2018 Nicolas Hérole</td>
 			<td class="tdFooter" id="tdFooter2">
-			<a href="https://www.facebook.com/Lormontinformatique/"><img id="FBfooter" src="content\uploads\image\logos\FB-FindUsonFacebook-online-512_fr_FR.png"/></a>
+			<a href="https://www.facebook.com/Lormontinformatique/"><img id="FBfooter" src="content\uploads\image\logos\facebook.png" width=100%></a>
 			</td>
 			<td class="tdFooter" id="tdFooter2">
 				<p><strong>Pour nous contacter :</strong></p>
@@ -104,6 +103,6 @@
 				<!--<p><a href="contact.html">Formulaire de contact (cliquez !)</a></p>-->
 			</td>
 		</table>
-	</footer>		
-	</body>
+	</footer>
+</body>	
 <html/>
