@@ -26,13 +26,12 @@ p {
 	margin: auto;
 }
 table {
-	border: 2vw solid #f0f9f4;
+border: 2vw solid #f0f9f4;
 	width: 100%;
 	max-height: 30vw;
 	text-align: center;
 }
 td {
-	border: 5px solid #4a4a4a;
 	height: 100%;
 	width: 30%;
 	background-color: #bebebe;
@@ -95,7 +94,7 @@ li {
 	border: none;
 	position: absolute;
 	line-height: 1.9;
-	top: 2vw;
+	top: 1.5vw;
 	right: 5vw;
 	font-size: 70%;
 	height: 3vw;
@@ -115,16 +114,16 @@ li {
 	background-color: #4a4a4a;
 	border-radius: 50vw 0 0 40vw;
 }
-.connexion {
+/*.connexion {
 	position: relative;
 	top: 3.5vw;
 	right: 7vw;
-}
-/*#SousTitre {
+}*/
+#sousTitre {
 	text-align: center;
 	font-family: Verdana, sans serif;
 	color: #f0f9f4;
-}*/
+}
 .tabledep {
 	border: none;
 	border-spacing: 0px;
@@ -192,65 +191,5 @@ footer {
 	line-height: 2em;
 }
 
-/*==================PAGE D'ACCUEIL==================*/
+/*==================PAGE CONNEXION==================*/
 
-#Bienvenue {
-	text-align: center;
-	font-family: Indie Flower, cursive;
-	font-style: italic;
-	color: #f0f9f4;
-}
-#tdblank {
-	border: none;
-	width: 5%;
-	height: 100%;
-	background-color: #f0f9f4;
-}
-#table2 {
-	margin: 40px 0 0 0;
-	font-family: Verdana, sans serif;
-}
-#cadreDep {
-	border: 15px solid #305b3d;
-	border-radius: 30px 10px 10px 70px;
-	background-color: #305b3d;
-	color: #f0f9f4;
-}
-#cadreFor {
-	border: 15px solid #4a4a4a;
-	border-radius: 10px 10px 10px 10px;
-	background-color: #4a4a4a;
-}
-#cadreRec {
-	border: 15px solid #88b87e;
-	border-radius: 10px 30px 70px 10px;
-	background-color: #88b87e;
-}
-#cadre {
-	border: none;
-	background-color: #f0f9f4;
-	height: 70px;
-	text-align: center;
-}
-#blank_table{
-	border: none;
-	background-color: #f0f9f4;
-	text-align: center;
-}
-#Trfspe {
-	text-align: center;
-	font-family: Indie Flower;
-}
-#cadrelia1 {
-	border: 50px solid #f0f9f4;
-	background-color: #f0f9f4;
-	height: 80px;
-	font-family: Verdana, sans serif;
-}
-#cadrelia2 {
-	border: 0px solid #f0f9f4;
-	border-radius: 50px;
-	background-color: #0496d1;
-	height: 80px;
-	font-size: auto;
-}
