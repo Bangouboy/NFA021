@@ -6,7 +6,7 @@ html {
 	background-color: #f0f9f4;
 	min-width: 100px;
 	max-width: 2440px;
-	font-size: 2.1vw;
+	font-size: 28px;
 	font-family: Courier New, serif;
 	color: #4a4a4a;
 	text-align: center;
@@ -26,7 +26,7 @@ p {
 	margin: auto;
 }
 table {
-border: 2vw solid #f0f9f4;
+	border: 2vw solid #f0f9f4;
 	width: 100%;
 	max-height: 30vw;
 	text-align: center;
@@ -82,11 +82,11 @@ li {
 	font-weight: bold;
 	color: #0496d1;
 }
-#vert_fonce{
+#vert_fonce {
 	font-weight: bold;
 	color: #305b3d;
 }
-#vert_clair{
+#vert_clair {
 	font-weight: bold;
 	color: #88b87e;
 }
@@ -94,7 +94,7 @@ li {
 	border: none;
 	position: absolute;
 	line-height: 1.9;
-	top: 1.5vw;
+	top: 2vw;
 	right: 5vw;
 	font-size: 70%;
 	height: 3vw;
@@ -114,14 +114,18 @@ li {
 	background-color: #4a4a4a;
 	border-radius: 50vw 0 0 40vw;
 }
-}
 .connexion {
 	position: relative;
 	top: 3.5vw;
 	right: 7vw;
 }
+#titre {
+	text-align: center;
+	font-family: Verdana, sans serif;
+	color: #f0f9f4;
+}
 .tabledep {
-border: none;
+	border: none;
 	border-spacing: 0px;
 	text-align: center;
 	background-image: linear-gradient(#ffffff, #f0f9f4);
@@ -132,15 +136,6 @@ border: none;
 	border-top: 2px solid #cf3333;
 	border-radius: 0 0 3vw 3vw;
 	background-color: #0496d1;	
-	
-}
-#tdblankdep {
-	border: none;
-	border-top: 2px solid #cf3333;
-	border-radius:  0 0 50px 50px ;
-	width: 25%;
-	height: 100%;
-	background-color: #f0f9f4;
 }
 #tdblankdep1 {
 	border: none;
@@ -153,7 +148,7 @@ border: none;
 #tdblankdep2 {
 	border: none;
 	border-top: 2px solid #cf3333;
-	border-radius: 0 50px 0 0 ;
+	border-radius: 0 40vw 0 0 ;
 	width: 25%;
 	height: 100%;
 	background-color: #f0f9f4;
@@ -165,7 +160,7 @@ footer {
 	color: black;
 }
 .tableFoot {
-border: none;
+	border: none;
 	height: auto;
 	margin-top: 10px;
 	background-color: #88b87e;

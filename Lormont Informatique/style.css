@@ -6,7 +6,7 @@ html {
 	background-color: #f0f9f4;
 	min-width: 100px;
 	max-width: 2440px;
-	font-size: 2.1vw;
+	font-size: 28px;
 	font-family: Courier New, serif;
 	color: #4a4a4a;
 	text-align: center;
@@ -32,7 +32,6 @@ table {
 	text-align: center;
 }
 td {
-	border: 5px solid #4a4a4a;
 	height: 100%;
 	width: 30%;
 	background-color: #bebebe;
@@ -83,11 +82,11 @@ li {
 	font-weight: bold;
 	color: #0496d1;
 }
-#vert_fonce{
+#vert_fonce {
 	font-weight: bold;
 	color: #305b3d;
 }
-#vert_clair{
+#vert_clair {
 	font-weight: bold;
 	color: #88b87e;
 }
@@ -120,11 +119,11 @@ li {
 	top: 3.5vw;
 	right: 7vw;
 }
-/*#SousTitre {
+#titre {
 	text-align: center;
 	font-family: Verdana, sans serif;
 	color: #f0f9f4;
-}*/
+}
 .tabledep {
 	border: none;
 	border-spacing: 0px;
