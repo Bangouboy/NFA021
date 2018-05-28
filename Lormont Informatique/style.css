@@ -2,11 +2,13 @@
 
 /*==================COMMUN AUX PAGES==================*/
 
+/*=== BASE CSS ===*/
+
 html {
 	background-color: #f0f9f4;
 	min-width: 100px;
 	max-width: 2440px;
-	font-size: 28px;
+	font-size: 2vw;
 	font-family: Courier New, serif;
 	color: #4a4a4a;
 	text-align: center;
@@ -44,22 +46,24 @@ li {
 	display: inline;
 	list-style: none;
 }
-.header {
+
+/*=== En-Tête 1 et 2 ===*/
+
+header {
 	text-align: center;
 	background-color: #ffffff;
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	max-height: 210px;
+	margin-bottom: 5vw;
 }
+
+/*=== En-Tête ligne 1 ===*/
+
 .tableHead {
 	border: none;
 	height: auto;
-}
-#tdBlankHead {
-	border: none;
-	width: 33%;
-	background-color: #3b5998;
 }
 #tdLogo {
 	border: none;
@@ -73,11 +77,6 @@ li {
 	width: 50%;
 	font-family: Verdana, sans serif;
 }
-#tdBack {
-	border: none;
-	background-color: #ffffff;
-	width: 30%;
-}
 #bleu {
 	font-weight: bold;
 	color: #0496d1;
@@ -90,40 +89,33 @@ li {
 	font-weight: bold;
 	color: #88b87e;
 }
-.retouraccueil {
+#retouraccueil {
 	border: none;
 	position: absolute;
-	line-height: 1.9;
+	line-height: 2;
 	top: 2vw;
 	right: 5vw;
 	font-size: 70%;
 	height: 3vw;
 	width: 7vw;
 	background-color: #bebebe;
-	border-radius: 0 50vw 50vw 0;
+	border-radius: 0 5vw 5vw 0;
 }
-.pageprecedente {
+#pageprecedente {
 	border: none;
 	position: absolute;
-	line-height: 1.9;
-	top: 5vw;
+	line-height: 2;
+	top: 5.5vw;
 	right: 5vw;
 	font-size: 70%;
 	height: 3vw;
 	width: 7vw;
 	background-color: #4a4a4a;
-	border-radius: 50vw 0 0 40vw;
+	border-radius: 5vw 0 0 5vw;
 }
-.connexion {
-	position: relative;
-	top: 3.5vw;
-	right: 7vw;
-}
-#titre {
-	text-align: center;
-	font-family: Verdana, sans serif;
-	color: #f0f9f4;
-}
+
+/*=== En-Tête ligne 2 ===*/
+
 .tabledep {
 	border: none;
 	border-spacing: 0px;
@@ -131,28 +123,35 @@ li {
 	background-image: linear-gradient(#ffffff, #f0f9f4);
 	height: 5vw;
 }
+#tdblankdep1 {
+	border: none;
+	border-top: 2px solid #cf3333;
+	border-radius: 3vw 0 0 0 ;
+	background-color: #f0f9f4;
+	width: 30%;
+	padding-left: 2%;
+}
+#connexion {
+	width: 30%;
+	position: fixef;
+	left: 2vw;
+}
 #tddep {
 	border: none;
 	border-top: 2px solid #cf3333;
 	border-radius: 0 0 3vw 3vw;
+	width: 40%;
 	background-color: #0496d1;	
-}
-#tdblankdep1 {
-	border: none;
-	border-top: 2px solid #cf3333;
-	border-radius: 40vw 0 0 0 ;
-	width: 25%;
-	height: 100%;
-	background-color: #f0f9f4;
 }
 #tdblankdep2 {
 	border: none;
 	border-top: 2px solid #cf3333;
-	border-radius: 0 40vw 0 0 ;
-	width: 25%;
-	height: 100%;
+	border-radius: 0 3vw 0 0 ;
 	background-color: #f0f9f4;
 }
+
+/*=== Pied de Page ===*/
+
 footer {
 	text-align: left;
 	background-color: #88b87e;
@@ -193,6 +192,11 @@ footer {
 
 /*==================PAGE D'ACCUEIL==================*/
 
+#titre {
+	text-align: center;
+	font-family: Verdana, sans serif;
+	color: #f0f9f4;
+}
 #Bienvenue {
 	text-align: center;
 	font-family: Indie Flower, cursive;
@@ -211,18 +215,18 @@ footer {
 }
 #cadreDep {
 	border: 15px solid #305b3d;
-	border-radius: 30px 10px 10px 70px;
+	border-radius: 3vw 1.5vw 1.5vw 7vw;
 	background-color: #305b3d;
 	color: #f0f9f4;
 }
 #cadreFor {
 	border: 15px solid #4a4a4a;
-	border-radius: 10px 10px 10px 10px;
+	border-radius: 1.5vw 1.5vw 1.5vw 1.5vw;
 	background-color: #4a4a4a;
 }
 #cadreRec {
 	border: 15px solid #88b87e;
-	border-radius: 10px 30px 70px 10px;
+	border-radius: 1.5vw 3vw 7vw 1.5vw;
 	background-color: #88b87e;
 }
 #cadre {

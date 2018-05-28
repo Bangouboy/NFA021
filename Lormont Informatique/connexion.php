@@ -68,24 +68,23 @@ if (isset($_POST['submit'])){
 	
 	<!-- En-tête avec logo -->
 	
-	<header class="header">
+	<header>
 		<table class="tableHead">
-				<tr>
-					<td id="tdLogo">
-						<a href="index.html"><img id="logo" src="content\uploads\charte_graphique\logo\logo_lia.png" width=50%></a>
-					</td>
-					<td id="tdLIAHead">
-						<a href="index.html"><p><span id="vert_clair">Lormont </span><span id="bleu">Informatique </span><span id="vert_clair">Association</span></p></a>
-					</td>
-					<td id="tdBack">
-						<td class="pageprecedente"><a href="#" onClick="history.back()">Retour</a></td>
-					</td>
-				</tr>
+			<tr>
+				<td id="tdLogo"><a href="index.html"><img id="logo" src="content\uploads\charte_graphique\logo\logo_lia.png" width=50%></a></td>
+				<td id="tdLIAHead"><a href="index.html"><p><span id="vert_clair">Lormont </span><span id="bleu">Informatique </span><span id="vert_clair">Association</span></p></a></td>
+				<td id="retouraccueil"><a href="index.html">Accueil</a></td>
+				<td id="pageprecedente"><a href="#" onClick="history.back()">Retour</a></td>
+			</tr>
 		</table>
 		<table class="tabledep">
-				<td id="tdblankdep1"></td>
+			<tr>
+				<td id="tdblankdep1">
+				<a href="connexion.php"><img id="connexion" src="content\uploads\charte_graphique\icones\connexion2.png"></a>
+				</td>
 				<td id="tddep"><p id="sousTitre">< J'ai un compte ></p></td>
 				<td id="tdblankdep2"></td>
+			</tr>
 		</table>
 	</header>
 							
